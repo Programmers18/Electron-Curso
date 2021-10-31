@@ -1,0 +1,29 @@
+{
+  "name": "app01-intro",
+  "version": "1.0.0",
+  "description": "Aplicacion de escritorio multiplatorma en Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Programmers18/Electron-Curso.git"
+  },
+  "keywords": [
+    "Electron",
+    "Escritorio",
+    "Multiplatoforma",
+    "Node.js",
+    "Chromium"
+  ],
+  "author": "Jonny D. Lezcano A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Programmers18/Electron-Curso/issues"
+  },
+  "homepage": "https://github.com/Programmers18/Electron-Curso#readme",
+  "devDependencies": {
+    "electron": "^15.3.0"
+  }
+}
