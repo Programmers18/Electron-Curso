@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src *; script-src 'self'">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Marcadores</title>
+</head>
+<body>
+    <h1>Marcadores</h1>
+
+    <div class="alert alert-warning mensaje-error invisible" role="alert"></div>
+
+    <section class="creacion-marcador">
+        <form class="creacion-marcador-formulario form-inline">
+            <div class="form-group my-1 mr-sm-2">
+                <input type="url" class="form-control creacion-marcador-url" placeholder="URL" required>
+            </div>
+            
+            <input type="submit" value="Crear" 
+            class="btn btn-success my-1 creacion-marcador-boton" disabled>
+            
+        </form>
+    </section>
+
+    <section class="marcadores my-3"></section>
+
+    <section id="controles">
+        <button class="btn btn-danger remover-marcadores">Eliminar Marcadores</button>
+    </section>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
