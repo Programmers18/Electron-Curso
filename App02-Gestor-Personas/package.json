@@ -1,0 +1,32 @@
+{
+  "name": "app02-gestor-personas",
+  "version": "1.0.0",
+  "description": "Gestor de Personas",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Programmers18/Electron-Curso.git"
+  },
+  "keywords": [
+    "electro",
+    "aplicacion",
+    "escritorio",
+    "desktop",
+    "multiplataforma"
+  ],
+  "author": "Jonny D. Lezcano A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Programmers18/Electron-Curso/issues"
+  },
+  "homepage": "https://github.com/Programmers18/Electron-Curso#readme",
+  "devDependencies": {
+    "electron": "^15.3.0"
+  },
+  "dependencies": {
+    "nedb": "^1.8.0"
+  }
+}
